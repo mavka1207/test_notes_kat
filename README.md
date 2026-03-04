@@ -21,7 +21,6 @@ A simple and elegant Flutter application for creating, editing, and managing not
 
 ### Run the app
 
-
    ```bash
    flutter run
    ```
@@ -43,13 +42,10 @@ Tap any note in the list to open it for editing. Make your changes and tap "Save
 
 ## Project Structure
 
-```
-
 lib/
 ├── main.dart              # Main app file with all screens and logic
 packages/
 └── note/                  # Local package for database and data models
-```
 
 ## Date Format
 
@@ -75,5 +71,3 @@ Notes display dates in a smart way:
 
 - ✅ iOS
 - ✅ Android
-
-
