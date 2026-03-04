@@ -206,7 +206,7 @@ packages:
   note:
     dependency: "direct main"
     description:
-      path: "../package/note"
+      path: "../note"
       relative: true
     source: path
     version: "0.0.1"

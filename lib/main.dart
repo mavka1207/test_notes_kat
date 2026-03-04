@@ -19,7 +19,7 @@ String formatNoteDate(String isoString) {
 }
 
 void main() {
-  print('=== MAIN FROM TEST_NOTES_KAT ===');
+  
   runApp(const SecureNotesMiniApp());
 }
 
@@ -131,7 +131,7 @@ class _NotesListScreenState extends State<NotesListScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Secure Notes Mini'),
+        title: const Text('Secure Notes'),
         actions: [
           IconButton(
             icon: const Icon(Icons.delete),
