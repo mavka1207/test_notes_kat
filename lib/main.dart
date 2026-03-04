@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:note/note.dart'; // локальный пакет ../package/note
+import 'package:note/note.dart'; // local package ../note
 
 String formatNoteDate(String isoString) {
   final dateTime = DateTime.parse(isoString);
